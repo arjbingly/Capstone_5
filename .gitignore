@@ -162,7 +162,20 @@ cython_debug/
 # MacOS
 *.DS_Store
 **.env
+
+# LLM Modesl
 **.gguf
+
 .idea/
 **/others
+
+# Data folder
 data/
+
+# Ruff
+**/.ruff_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
